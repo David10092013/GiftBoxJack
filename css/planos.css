@@ -1,19 +1,24 @@
 .planos {
-    background-color:var(--branco);
+  background-color: var(--branco);
   padding-top: 13rem;
   padding-bottom: 3rem;
+
   font-family: var(--montserrat);
+
+  margin: 0.3% 0.3%;
+
+  box-sizing: border-box;
+  
 }
 
 .planos__cartoes {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .cartao {
-  display:flex;
+  display: flex;
   flex-direction: column;
 
   background-color: var(--branco);
@@ -23,8 +28,6 @@
 
   margin-bottom: 2rem;
   font-family: var(--montserrat);
-  border-radius: 3px;
-  border: 1px solid #000000;
 }
 
 .cartao__titulo {
@@ -36,7 +39,6 @@
 
   margin-bottom: 0.5rem;
   color: black;
-  
 }
 
 .cartao__conteudo {
@@ -48,12 +50,11 @@
   font-weight: 700;
   font-size: 2rem;
   text-align: center;
-    color: black;
+  color: black;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   font-family: var(--montserrat);
 }
-
 
 .cartao__texto {
   color: black;
@@ -62,9 +63,6 @@
   font-weight: 600;
   font-family: var(--montserrat);
 }
-
-
-
 
 @media screen and (min-width: 768px) {
   .cartao {
