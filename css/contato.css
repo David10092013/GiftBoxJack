@@ -4,7 +4,7 @@
     align-items: center;
 
     text-align: center;
-
+    font-family: var(--montserrat);
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -16,27 +16,44 @@
     font-family: var(--montserrat);
     text-transform: uppercase;
     text-align: center;
-
+    
     margin-bottom: 1.25rem;
 }
 
-.contato__botao {
-    color: var(--cinza-escuro);
-
-    border-color: var(--cinza-escuro);
-
-    margin-top: 1rem;
+.institucional__contato{
+    font-family: var(--montserrat);
+    padding-bottom: 2rem;
 }
 .institucional__conteudo{
-
+    
     color: var(--fonte-cinza);
     line-height: 28px;
     font-size: 18px;
     font-weight: 600;
     text-align: center;
 }
+
+.institucional__endereco{
+   
+    font-family: var(--montserrat);
+
+}
+
 .contato__titulo{
 color:#800000
 
 
+}
+.institucional__descricao{
+padding-bottom: 2rem;
+
+}
+
+
+.contato p{
+    padding-bottom: 2rem;
+}
+.maps{
+
+    border: 1px black solid;
 }

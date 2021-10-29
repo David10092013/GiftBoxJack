@@ -16,11 +16,11 @@
     --planos-cartao-ultra: #b04cd9;
     --planos-cartao-mega: #e33b3b;
   
-    --montserrat: 'Montserrat', sans-serif;
+    --montserrat: 'Inconsolata', monospace;
   }
   
   body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--montserrat);
     background-color:var(--branco);
     
   }

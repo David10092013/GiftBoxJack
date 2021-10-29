@@ -10,8 +10,8 @@
 
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-
-  
+  opacity: 0.6;
+  font-family: var(--montserrat);
 }
 
 .img{
@@ -37,9 +37,9 @@
 */
 .cabecalho__logo {
   margin-bottom: 1rem;
-  margin-left: 8rem;
-  width: 130px;
-  height:7rem ;
+  margin-left: 6rem;
+  width: 200px;
+  
   
 }
 
@@ -52,6 +52,8 @@
   margin-top: 1.5rem;
   color: #800000;
   z-index: 99;
+  padding-right: 1rem;
+  font-family: var(--montserrat);
 }
 .cabecalho__link:hover{
   color: #008037;
