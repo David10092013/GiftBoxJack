@@ -1,0 +1,42 @@
+.chamada {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+  text-align: center;
+  background-color:var(--branco)
+  
+}
+
+.chamada__titulo{
+    
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    font-family: var (--montserrat);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#800000;
+   
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .chamada__texto {
+    max-width: 600px;
+     position: absolute;
+    
+  }
+  
+  
+}
+

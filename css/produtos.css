@@ -1,0 +1,24 @@
+.ingredientes h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 6rem;
+  color: #800000;
+  
+}
+
+.cartao__conteudo {
+  color: var(--fonte-cinza);
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 4rem;
+  text-align: left;
+   width: 50%;
+  border-bottom: 1px solid black;
+  position: flex;
+}
+.cartao__titulo{
+  color: #800000;
+
+}
