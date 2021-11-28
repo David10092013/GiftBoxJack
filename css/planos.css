@@ -1,6 +1,6 @@
 .planos {
   background-color: var(--branco);
-  padding-top: 13rem;
+  padding-top: 5rem;
   padding-bottom: 3rem;
 
   font-family: var(--montserrat);
@@ -8,7 +8,6 @@
   margin: 0.3% 0.3%;
 
   box-sizing: border-box;
-  
 }
 
 .planos__cartoes {
