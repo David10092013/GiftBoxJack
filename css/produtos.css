@@ -1,8 +1,6 @@
 .ingredientes {
   background-color: white;
   padding-top: 6rem;
-
-
 }
 .consultar {
   font-weight: 300;
@@ -20,20 +18,55 @@
   color: #800000;
   font-family: var(--montserrat);
 }
+.planos__ingredientes {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  border: 10px solid blue;
+  width: 1200px;
+  justify-content: center;
+ 
+  
+}
+@media screen and (min-width: 1024px) {
+  .planos__ingredientes {
+    flex-direction: row;
+    
+  }
+}
 
 .cartao__conteudo {
   color: var(--fonte-cinza);
-  line-height: 28px;
   font-size: 18px;
   font-weight: 600;
-  padding-bottom: 4rem;
-  text-align: left;
-  width: 50%;
-  border-bottom: 1px solid black;
- 
+  text-align: center;
+  border: 5px solid black;
   font-family: var(--montserrat);
+  width: 325px;
+  height: 500px;
+  display: grid;
+  margin: 10px;
+  padding: 0.75rem 0;
+
+  margin-bottom: 0.5rem;
 }
+@media screen and (min-width: 1000px) {
+  .cartao__conteudo {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .cartao__titulo {
+    padding: 0.75rem 0;
+
+    margin-bottom: 0.5rem;
+  }
+}
+
 .cartao__titulo {
+  text-align: center;
   color: #800000;
   font-family: var(--montserrat);
 }
@@ -43,30 +76,10 @@
 
   font-family: var(--montserrat);
 }
-.Aco{
-  
-  padding: 2rem 4rem 0rem 5rem;
-   float: left;
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    filter: brightness(110%);
-    filter: saturate(120%);
-   
-}
-.qjo{
-  padding: 4rem 4rem 0rem 5rem;
+.Aco {
   float: left;
-   width: 200px;
-   height: 200px;
-   text-align: center;
-   
-}
-.ebt{
-  padding: 4rem 4rem 0rem 5rem;
-  float: left;
-   width: 200px;
-   height: 200px;
-   text-align: center;
-  
+  width: 325px;
+  height: 250px;
+  filter: brightness(110%);
+  filter: saturate(120%);
 }
