@@ -23,10 +23,6 @@
 .institucional__contato {
   font-family: var(--montserrat);
   padding-bottom: 2rem;
-  
-
-
-  
 }
 .institucional__conteudo {
   color: var(--fonte-cinza);
@@ -34,9 +30,6 @@
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  
-
-  ;
 }
 
 .institucional__endereco {
@@ -55,4 +48,5 @@
 }
 .maps {
   border: 1px black solid;
+  width: 100%;
 }

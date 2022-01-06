@@ -41,11 +41,11 @@
 }
 
 .cartao__plano {
-  color: var(--fonte-cinza); 
+  color: var(--fonte-cinza);
   font-size: 18px;
   font-weight: 600;
-  text-align:center;
- 
+  text-align: center;
+
   font-family: var(--montserrat);
   width: 325px;
   height: 350px;
@@ -86,6 +86,4 @@
     justify-content: space-between;
     align-items: flex-end;
   }
- 
- 
 }
